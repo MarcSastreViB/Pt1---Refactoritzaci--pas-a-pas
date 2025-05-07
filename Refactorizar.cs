@@ -17,6 +17,15 @@ class Refactorizar
         	Console.WriteLine("Nuevo salario: " + salario);
     	}
 	}
+	static void MostrarInformacion(string nombre, int edad, double salario)
+	{
+		Console.WriteLine("Bienvenido: " + nombre);
+		Console.WriteLine("Edad: " + edad);
+		Console.WriteLine("Salario: " + salario);
+		double aumento = 0.05;
+		salario = salario + salario * aumento;
+		Console.WriteLine("Nuevo salario: " + salario);
+	}
 
 	static bool esMayor(string n, int e)
 	{
