@@ -8,7 +8,7 @@ class Refactorizar
     	int edad = 45;
     	double salario = 2500;
 
-    	if (esMayor(nombre, edad)) {
+    	if (edad >= 18) {
         	Console.WriteLine("Bienvenido: " + nombre);
         	Console.WriteLine("Edad: " + edad);
         	Console.WriteLine("Salario: " + salario);
